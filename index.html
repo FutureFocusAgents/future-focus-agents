@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Future Focus Agents — Practice Automation That Works While You Sleep</title>
+    <meta name="description" content="Stop losing patients to missed calls and manual processes. Automated workflows, smart integrations, and intelligent systems for dental practices that recover revenue, reduce no-shows, and free your staff.">
+    <meta property="og:title" content="Future Focus Agents — Practice Automation">
+    <meta property="og:description" content="Automated workflows that recover lost patients, eliminate no-shows, and free your staff from repetitive tasks.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://thefuturefocus.net">
+    <link rel="canonical" href="https://thefuturefocus.net">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { sans: ['Inter', 'system-ui', 'sans-serif'] },
+                    colors: {
+                        brand: { 50: '#eff6ff', 100: '#dbeafe', 200: '#bfdbfe', 500: '#3b82f6', 600: '#2563eb', 700: '#1d4ed8', 800: '#1e40af', 900: '#1e3a8a' },
+                        accent: { 50: '#ecfdf5', 500: '#10b981', 600: '#059669', 700: '#047857' }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        html { scroll-behavior: smooth; }
+        .gradient-hero { background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 50%, #1e40af 100%); }
+        .gradient-cta { background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%); }
+        .card-hover { transition: all 0.3s ease; }
+        .card-hover:hover { transform: translateY(-4px); box-shadow: 0 20px 40px rgba(0,0,0,0.1); }
+        .pulse-glow { animation: pulse-glow 2s ease-in-out infinite alternate; }
+        @keyframes pulse-glow { from { box-shadow: 0 0 20px rgba(37,99,235,0.3); } to { box-shadow: 0 0 40px rgba(37,99,235,0.5); } }
+        .fade-in { opacity: 0; transform: translateY(20px); transition: all 0.6s ease; }
+        .fade-in.visible { opacity: 1; transform: translateY(0); }
+        .check-icon::before { content: '✓'; display: inline-flex; align-items: center; justify-content: center; width: 20px; height: 20px; background: #ecfdf5; color: #059669; border-radius: 50%; font-size: 11px; font-weight: 700; margin-right: 10px; flex-shrink: 0; }
+    </style>
+</head>
+<body class="font-sans text-gray-700 antialiased">
+
+<!-- ========== NAVIGATION ========== -->
+<nav class="bg-white/95 backdrop-blur-md border-b border-gray-100 sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+        <div class="flex items-center justify-between h-16">
+            <a href="#" class="flex items-center space-x-1">
+                <span class="text-xl font-extrabold text-gray-900 tracking-tight">Future<span class="text-brand-600">Focus</span></span>
+            </a>
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="#solutions" class="text-sm font-medium text-gray-600 hover:text-brand-600 transition">Solutions</a>
+                <a href="#pricing" class="text-sm font-medium text-gray-600 hover:text-brand-600 transition">Pricing</a>
+                <a href="#faq" class="text-sm font-medium text-gray-600 hover:text-brand-600 transition">FAQ</a>
+                <a href="#contact" class="text-sm font-medium text-gray-600 hover:text-brand-600 transition">Contact</a>
+            </div>
+            <a href="#pricing" class="bg-brand-600 hover:bg-brand-700 text-white px-5 py-2.5 rounded-lg text-sm font-semibold transition shadow-sm shadow-brand-600/20">
+                Get Started
+            </a>
+        </div>
+    </div>
+</nav>
+
+<!-- ========== HERO ========== -->
+<section class="gradient-hero relative overflow-hidden">
+    <div class="absolute inset-0 opacity-10">
+        <div class="absolute top-20 left-10 w-72 h-72 bg-blue-400 rounded-full blur-3xl"></div>
+        <div class="absolute bottom-20 right-10 w-96 h-96 bg-indigo-400 rounded-full blur-3xl"></div>
+    </div>
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 py-20 md:py-28 relative z-10">
+        <div class="text-center max-w-4xl mx-auto">
+            <div class="inline-flex items-center bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-4 py-1.5 mb-6">
+                <span class="w-2 h-2 bg-green-400 rounded-full mr-2 animate-pulse"></span>
+                <span class="text-blue-100 text-sm font-medium">Automation &amp; Smart Systems for Healthcare Practices</span>
+            </div>
+            <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white leading-tight tracking-tight mb-6">
+                Your Practice Is Losing Revenue to <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-cyan-300">Missed Calls</span> and Manual Processes
+            </h1>
+            <p class="text-lg sm:text-xl text-blue-100/90 max-w-2xl mx-auto mb-10 leading-relaxed">
+                Automated workflows, smart integrations, and intelligent systems that recover lost patients, eliminate no-shows, and free your staff &mdash; running 24/7 while you focus on patient care.
+            </p>
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+                <a href="#pricing" class="bg-white text-brand-700 px-8 py-4 rounded-xl text-base font-bold hover:bg-blue-50 transition shadow-lg shadow-black/10 w-full sm:w-auto text-center">
+                    See Plans &amp; Pricing &rarr;
+                </a>
+                <a href="#solutions" class="border border-white/30 text-white px-8 py-4 rounded-xl text-base font-semibold hover:bg-white/10 transition w-full sm:w-auto text-center">
+                    How It Works
+                </a>
+            </div>
+            <p class="text-blue-200/60 text-sm mt-6">No contracts. No chatbots. Cancel anytime.</p>
+        </div>
+    </div>
+</section>
+
+<!-- ========== SOCIAL PROOF BAR ========== -->
+<section class="bg-gray-50 border-b border-gray-100">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 py-8">
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+            <div>
+                <div class="text-3xl sm:text-4xl font-extrabold text-gray-900 tracking-tight">23%</div>
+                <div class="text-sm text-gray-500 mt-1">of calls missed during business hours</div>
+            </div>
+            <div>
+                <div class="text-3xl sm:text-4xl font-extrabold text-gray-900 tracking-tight">$14K</div>
+                <div class="text-sm text-gray-500 mt-1">avg. monthly revenue recovered</div>
+            </div>
+            <div>
+                <div class="text-3xl sm:text-4xl font-extrabold text-gray-900 tracking-tight">35%</div>
+                <div class="text-sm text-gray-500 mt-1">of missed calls recovered via text-back</div>
+            </div>
+            <div>
+                <div class="text-3xl sm:text-4xl font-extrabold text-gray-900 tracking-tight">15 hrs</div>
+                <div class="text-sm text-gray-500 mt-1">saved per week for front desk staff</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ========== PROBLEM SECTION ========== -->
+<section class="py-20 bg-white" id="solutions">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+        <div class="text-center mb-14">
+            <p class="text-sm font-bold text-brand-600 uppercase tracking-widest mb-3">The Problem</p>
+            <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900 tracking-tight mb-4">Your practice is bleeding revenue &mdash; and you might not see it.</h2>
+            <p class="text-lg text-gray-500 max-w-2xl mx-auto">Every day, practices lose thousands to problems that are completely fixable with the right automated systems and smart integrations.</p>
+        </div>
+        <div class="grid md:grid-cols-3 gap-6">
+            <div class="bg-red-50/50 border border-red-100 rounded-2xl p-7 card-hover">
+                <div class="w-12 h-12 bg-red-100 rounded-xl flex items-center justify-center text-2xl mb-4">&#128222;</div>
+                <h3 class="text-lg font-bold text-gray-900 mb-2">Missed Calls = Lost Patients</h3>
+                <p class="text-sm text-gray-600 leading-relaxed">The average practice misses 23% of inbound calls during business hours. Only 12% of those callers leave a voicemail. The rest call your competitor.</p>
+            </div>
+            <div class="bg-orange-50/50 border border-orange-100 rounded-2xl p-7 card-hover">
+                <div class="w-12 h-12 bg-orange-100 rounded-xl flex items-center justify-center text-2xl mb-4">&#128197;</div>
+                <h3 class="text-lg font-bold text-gray-900 mb-2">No-Shows Destroy Your Schedule</h3>
+                <p class="text-sm text-gray-600 leading-relaxed">Without automated reminders, the average no-show rate is 20&ndash;25%. That's empty chairs, lost production, and wasted staff time every single day.</p>
+            </div>
+            <div class="bg-amber-50/50 border border-amber-100 rounded-2xl p-7 card-hover">
+                <div class="w-12 h-12 bg-amber-100 rounded-xl flex items-center justify-center text-2xl mb-4">&#128260;</div>
+                <h3 class="text-lg font-bold text-gray-900 mb-2">Disconnected Tools &amp; Manual Work</h3>
+                <p class="text-sm text-gray-600 leading-relaxed">Your phone system, PMS, email, and Google profile don't talk to each other. Your staff spends 15&ndash;20 hours per week on tasks that should be automatic.</p>
+            </div>
+            <div class="bg-yellow-50/50 border border-yellow-100 rounded-2xl p-7 card-hover">
+                <div class="w-12 h-12 bg-yellow-100 rounded-xl flex items-center justify-center text-2xl mb-4">&#11088;</div>
+                <h3 class="text-lg font-bold text-gray-900 mb-2">Reviews Aren't Growing</h3>
+                <p class="text-sm text-gray-600 leading-relaxed">Happy patients leave without being asked for a review. Meanwhile, the rare unhappy patient finds Google on their own. Your online reputation stalls.</p>
+            </div>
+            <div class="bg-rose-50/50 border border-rose-100 rounded-2xl p-7 card-hover">
+                <div class="w-12 h-12 bg-rose-100 rounded-xl flex items-center justify-center text-2xl mb-4">&#128100;</div>
+                <h3 class="text-lg font-bold text-gray-900 mb-2">Lapsed Patients Disappear</h3>
+                <p class="text-sm text-gray-600 leading-relaxed">Patients who haven't been in for 6+ months quietly drift away. Without automated recall campaigns, they never come back &mdash; and you never notice.</p>
+            </div>
+            <div class="bg-purple-50/50 border border-purple-100 rounded-2xl p-7 card-hover">
+                <div class="w-12 h-12 bg-purple-100 rounded-xl flex items-center justify-center text-2xl mb-4">&#128176;</div>
+                <h3 class="text-lg font-bold text-gray-900 mb-2">Staff Burnout from Repetitive Tasks</h3>
+                <p class="text-sm text-gray-600 leading-relaxed">Your front desk is confirming appointments by phone, chasing insurance verifications, and manually following up. They're overwhelmed, and things fall through the cracks.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ========== HOW IT WORKS ========== -->
+<section class="py-20 bg-gray-50">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+        <div class="text-center mb-14">
+            <p class="text-sm font-bold text-brand-600 uppercase tracking-widest mb-3">How It Works</p>
+            <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900 tracking-tight mb-4">Up and running in 3 simple steps</h2>
+            <p class="text-lg text-gray-500 max-w-2xl mx-auto">No complicated software to learn. No months-long implementation. Just automated workflows that start working immediately.</p>
+        </div>
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="text-center">
+                <div class="w-16 h-16 bg-brand-600 text-white rounded-2xl flex items-center justify-center text-2xl font-extrabold mx-auto mb-5 shadow-lg shadow-brand-600/20">1</div>
+                <h3 class="text-xl font-bold text-gray-900 mb-3">Choose Your Plan</h3>
+                <p class="text-gray-600 leading-relaxed">Pick the automation level that fits your practice. Start with the guide to learn, or jump straight to a monthly plan for done-for-you setup.</p>
+            </div>
+            <div class="text-center">
+                <div class="w-16 h-16 bg-brand-600 text-white rounded-2xl flex items-center justify-center text-2xl font-extrabold mx-auto mb-5 shadow-lg shadow-brand-600/20">2</div>
+                <h3 class="text-xl font-bold text-gray-900 mb-3">We Connect Your Systems</h3>
+                <p class="text-gray-600 leading-relaxed">We integrate with your existing phone system, practice management software, and Google Business profile. No new tools to learn &mdash; everything works behind the scenes.</p>
+            </div>
+            <div class="text-center">
+                <div class="w-16 h-16 bg-brand-600 text-white rounded-2xl flex items-center justify-center text-2xl font-extrabold mx-auto mb-5 shadow-lg shadow-brand-600/20">3</div>
+                <h3 class="text-xl font-bold text-gray-900 mb-3">Automations Run 24/7</h3>
+                <p class="text-gray-600 leading-relaxed">Missed calls get texted back. Appointments get confirmed. Reviews get requested. Lapsed patients get recalled. All automatically, while you focus on patients.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ========== PRICING ========== -->
+<section class="py-20 bg-white" id="pricing">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+        <div class="text-center mb-14">
+            <p class="text-sm font-bold text-brand-600 uppercase tracking-widest mb-3">Pricing</p>
+            <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900 tracking-tight mb-4">Simple pricing. Immediate results.</h2>
+            <p class="text-lg text-gray-500 max-w-2xl mx-auto">Every plan pays for itself within the first week. No contracts. No complicated setup. No chatbots.</p>
+        </div>
+        <div class="grid md:grid-cols-3 gap-6 lg:gap-8 items-start max-w-5xl mx-auto">
+
+            <!-- $47 Guide -->
+            <div class="bg-white border border-gray-200 rounded-2xl p-8 card-hover relative">
+                <p class="text-xs font-bold text-brand-600 uppercase tracking-widest mb-2">Quick Start</p>
+                <h3 class="text-xl font-extrabold text-gray-900 mb-2">5 AI Automations Guide</h3>
+                <p class="text-sm text-gray-500 mb-6 leading-relaxed">The complete playbook for the 5 highest-impact automations dental practices are using right now.</p>
+                <div class="mb-6">
+                    <span class="text-5xl font-extrabold text-gray-900 tracking-tight">$47</span>
+                    <span class="text-gray-400 text-sm font-medium ml-1">one-time</span>
+                </div>
+                <ul class="space-y-3 mb-8">
+                    <li class="flex items-start text-sm text-gray-600"><span class="check-icon"></span>Missed-call text-back setup guide</li>
+                    <li class="flex items-start text-sm text-gray-600"><span class="check-icon"></span>Appointment reminder automation</li>
+                    <li class="flex items-start text-sm text-gray-600"><span class="check-icon"></span>Review request workflow</li>
+                    <li class="flex items-start text-sm text-gray-600"><span class="check-icon"></span>Recall campaign templates</li>
+                    <li class="flex items-start text-sm text-gray-600"><span class="check-icon"></span>Insurance verification workflow</li>
+                    <li class="flex items-start text-sm text-gray-600"><span class="check-icon"></span>Step-by-step implementation</li>
+                </ul>
+                <a href="https://buy.stripe.com/4gMcN4a3ocSC05R2Wi9sk0h" class="block w-full text-center border-2 border-brand-600 text-brand-600 hover:bg-brand-50 px-6 py-3.5 rounded-xl font-bold text-sm transition">
+                    Get the Guide &rarr;
+                </a>
+            </div>
+
+            <!-- $29/mo Starter — FEATURED -->
+            <div class="bg-white border-2 border-brand-600 rounded-2xl p-8 card-hover relative shadow-xl shadow-brand-600/10 md:-mt-4 md:mb-0">
+                <div class="absolute -top-3.5 left-1/2 -translate-x-1/2 bg-brand-600 text-white text-xs font-bold uppercase tracking-wider px-4 py-1 rounded-full">Most Popular</div>
+                <p class="text-xs font-bold text-brand-600 uppercase tracking-widest mb-2 mt-2">Starter</p>
+                <h3 class="text-xl font-extrabold text-gray-900 mb-2">Practice Automation Starter</h3>
+                <p class="text-sm text-gray-500 mb-6 leading-relaxed">The essential automated workflows every practice needs. Missed-call recovery, reminders, and review generation on autopilot.</p>
+                <div class="mb-6">
+                    <span class="text-5xl font-extrabold text-gray-900 tracking-tight">$29</span>
+                    <span class="text-gray-400 text-sm font-medium ml-1">/month</span>
+                </div>
+                <ul class="space-y-3 mb-8">
+                    <li class="flex items-start text-sm text-gray-600"><span class="check-icon"></span>Missed-call text-back (24/7)</li>
+                    <li class="flex items-start text-sm text-gray-600"><span class="check-icon"></span>Automated SMS appointment reminders</li>
+                    <li class="flex items-start text-sm text-gray-600"><span class="check-icon"></span>Post-visit review requests</li>
+                    <li class="flex items-start text-sm text-gray-600"><span class="check-icon"></span>Basic analytics dashboard</li>
+                    <li class="flex items-start text-sm text-gray-600"><span class="check-icon"></span>Email support</li>
+                    <li class="flex items-start text-sm text-gray-600"><span class="check-icon"></span>Set up in under 1 hour</li>
+                </ul>
+                <a href="https://buy.stripe.com/fZueVc0sO5qacSD1Se9sk0i" class="block w-full text-center bg-brand-600 hover:bg-brand-700 text-white px-6 py-3.5 rounded-xl font-bold text-sm transition shadow-lg shadow-brand-600/20 pulse-glow">
+                    Start Automating &rarr;
+                </a>
+            </div>
+
+            <!-- $99/mo Pro -->
+            <div class="bg-white border border-gray-200 rounded-2xl p-8 card-hover relative">
+                <p class="text-xs font-bold text-accent-600 uppercase tracking-widest mb-2">Professional</p>
+                <h3 class="text-xl font-extrabold text-gray-900 mb-2">Practice Automation Pro</h3>
+                <p class="text-sm text-gray-500 mb-6 leading-relaxed">Full-stack automation for practices that want everything connected. Every workflow automated. Nothing falls through the cracks.</p>
+                <div class="mb-6">
+                    <span class="text-5xl font-extrabold text-gray-900 tracking-tight">$99</span>
+                    <span class="text-gray-400 text-sm font-medium ml-1">/month</span>
+                </div>
+                <ul class="space-y-3 mb-8">
+                    <li class="flex items-start text-sm text-gray-700 font-semibold"><span class="check-icon"></span>Everything in Starter, plus:</li>
+                    <li class="flex items-start text-sm text-gray-600"><span class="check-icon"></span>Smart appointment scheduling</li>
+                    <li class="flex items-start text-sm text-gray-600"><span class="check-icon"></span>Insurance follow-up workflows</li>
+                    <li class="flex items-start text-sm text-gray-600"><span class="check-icon"></span>Recall campaigns for lapsed patients</li>
+                    <li class="flex items-start text-sm text-gray-600"><span class="check-icon"></span>Advanced analytics &amp; reporting</li>
+                    <li class="flex items-start text-sm text-gray-600"><span class="check-icon"></span>Priority support</li>
+                    <li class="flex items-start text-sm text-gray-600"><span class="check-icon"></span>Custom workflow configuration</li>
+                </ul>
+                <a href="https://buy.stripe.com/14A6oGa3o4m605RcwS9sk0j" class="block w-full text-center border-2 border-gray-800 text-gray-800 hover:bg-gray-900 hover:text-white px-6 py-3.5 rounded-xl font-bold text-sm transition">
+                    Go Pro &rarr;
+                </a>
+            </div>
+        </div>
+
+        <!-- Enterprise callout -->
+        <div class="mt-12 max-w-3xl mx-auto text-center bg-gray-50 border border-gray-200 rounded-2xl p-8">
+            <h3 class="text-lg font-bold text-gray-900 mb-2">Multi-Location or DSO?</h3>
+            <p class="text-sm text-gray-600 mb-4">We offer PracticeIQ enterprise plans for dental groups and DSOs starting at $299/month per location, with volume discounts and centralized reporting.</p>
+            <a href="mailto:futurefocusagents@gmail.com?subject=Enterprise%20Inquiry" class="text-brand-600 font-semibold text-sm hover:underline">Contact us for enterprise pricing &rarr;</a>
+        </div>
+    </div>
+</section>
+
+<!-- ========== TESTIMONIAL / SOCIAL PROOF ========== -->
+<section class="py-20 bg-gray-50">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+        <div class="text-center mb-14">
+            <p class="text-sm font-bold text-brand-600 uppercase tracking-widest mb-3">Results</p>
+            <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900 tracking-tight mb-4">What practice owners are saying</h2>
+        </div>
+        <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            <div class="bg-white border border-gray-200 rounded-2xl p-8 card-hover">
+                <div class="flex items-center mb-4">
+                    <div class="flex text-yellow-400 text-lg">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                </div>
+                <blockquote class="text-gray-700 leading-relaxed mb-6">
+                    "We were missing 20+ calls a week and didn't even realize it. The missed-call text-back alone brought in 8 new patients in the first month. The automated reminders cut our no-shows in half. I wish we'd done this years ago."
+                </blockquote>
+                <div class="flex items-center">
+                    <div class="w-10 h-10 bg-brand-100 rounded-full flex items-center justify-center text-brand-600 font-bold text-sm">PO</div>
+                    <div class="ml-3">
+                        <p class="text-sm font-semibold text-gray-900">Practice Owner</p>
+                        <p class="text-xs text-gray-500">Denver Metro Area</p>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-white border border-gray-200 rounded-2xl p-8 card-hover">
+                <div class="flex items-center mb-4">
+                    <div class="flex text-yellow-400 text-lg">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                </div>
+                <blockquote class="text-gray-700 leading-relaxed mb-6">
+                    "The automation handles things my front desk used to spend hours on. Appointment confirmations, review requests, recall reminders &mdash; it all just happens now. My staff can actually focus on patients instead of phone calls."
+                </blockquote>
+                <div class="flex items-center">
+                    <div class="w-10 h-10 bg-accent-50 rounded-full flex items-center justify-center text-accent-600 font-bold text-sm">DDS</div>
+                    <div class="ml-3">
+                        <p class="text-sm font-semibold text-gray-900">Dental Practice</p>
+                        <p class="text-xs text-gray-500">Colorado</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Industry stats -->
+        <div class="mt-12 grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+            <div class="text-center bg-white border border-gray-200 rounded-xl p-6">
+                <div class="text-2xl font-extrabold text-brand-600">$14,000+</div>
+                <div class="text-sm text-gray-500 mt-1">Average monthly revenue recovered per practice</div>
+            </div>
+            <div class="text-center bg-white border border-gray-200 rounded-xl p-6">
+                <div class="text-2xl font-extrabold text-brand-600">50%</div>
+                <div class="text-sm text-gray-500 mt-1">Reduction in no-show rates with automated reminders</div>
+            </div>
+            <div class="text-center bg-white border border-gray-200 rounded-xl p-6">
+                <div class="text-2xl font-extrabold text-brand-600">4.8x</div>
+                <div class="text-sm text-gray-500 mt-1">Average ROI within the first 90 days</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ========== FAQ ========== -->
+<section class="py-20 bg-white" id="faq">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6">
+        <div class="text-center mb-14">
+            <p class="text-sm font-bold text-brand-600 uppercase tracking-widest mb-3">FAQ</p>
+            <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900 tracking-tight mb-4">Common questions</h2>
+        </div>
+        <div class="space-y-4">
+            <details class="group bg-gray-50 border border-gray-200 rounded-xl overflow-hidden">
+                <summary class="flex items-center justify-between cursor-pointer p-6 font-semibold text-gray-900 text-sm">
+                    Is this a chatbot?
+                    <svg class="w-5 h-5 text-gray-400 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+                </summary>
+                <div class="px-6 pb-6 text-sm text-gray-600 leading-relaxed">No. These are automated workflows and smart integrations that connect your existing tools &mdash; phone system, PMS, Google Business profile. Patients interact with familiar text messages and booking links, not chatbots. Everything runs behind the scenes.</div>
+            </details>
+            <details class="group bg-gray-50 border border-gray-200 rounded-xl overflow-hidden">
+                <summary class="flex items-center justify-between cursor-pointer p-6 font-semibold text-gray-900 text-sm">
+                    Do I need to learn new software?
+                    <svg class="w-5 h-5 text-gray-400 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+                </summary>
+                <div class="px-6 pb-6 text-sm text-gray-600 leading-relaxed">No. The automations run in the background and integrate with tools you already use. Your staff won't need any training. You'll get a simple dashboard to see what's happening, but the system works without any manual intervention.</div>
+            </details>
+            <details class="group bg-gray-50 border border-gray-200 rounded-xl overflow-hidden">
+                <summary class="flex items-center justify-between cursor-pointer p-6 font-semibold text-gray-900 text-sm">
+                    How quickly will I see results?
+                    <svg class="w-5 h-5 text-gray-400 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+                </summary>
+                <div class="px-6 pb-6 text-sm text-gray-600 leading-relaxed">Most practices see recovered calls and reduced no-shows within the first week. Review growth typically takes 30&ndash;60 days to compound. The $29/mo Starter plan typically pays for itself within the first 48 hours through recovered missed calls alone.</div>
+            </details>
+            <details class="group bg-gray-50 border border-gray-200 rounded-xl overflow-hidden">
+                <summary class="flex items-center justify-between cursor-pointer p-6 font-semibold text-gray-900 text-sm">
+                    What if I want to cancel?
+                    <svg class="w-5 h-5 text-gray-400 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+                </summary>
+                <div class="px-6 pb-6 text-sm text-gray-600 leading-relaxed">Cancel anytime. No contracts, no cancellation fees, no lock-in periods. We believe the results will speak for themselves. Most practices see enough value in the first week that cancellation never crosses their mind.</div>
+            </details>
+            <details class="group bg-gray-50 border border-gray-200 rounded-xl overflow-hidden">
+                <summary class="flex items-center justify-between cursor-pointer p-6 font-semibold text-gray-900 text-sm">
+                    Does this work with my practice management system?
+                    <svg class="w-5 h-5 text-gray-400 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+                </summary>
+                <div class="px-6 pb-6 text-sm text-gray-600 leading-relaxed">We integrate with all major PMS platforms including Dentrix, Eaglesoft, Open Dental, and Curve. If you use something else, reach out and we'll confirm compatibility before you sign up.</div>
+            </details>
+            <details class="group bg-gray-50 border border-gray-200 rounded-xl overflow-hidden">
+                <summary class="flex items-center justify-between cursor-pointer p-6 font-semibold text-gray-900 text-sm">
+                    How is this different from what my PMS already does?
+                    <svg class="w-5 h-5 text-gray-400 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+                </summary>
+                <div class="px-6 pb-6 text-sm text-gray-600 leading-relaxed">Your PMS manages patient records. We automate the workflows between your PMS, phone system, Google, and patient communication. Think of it as the intelligent layer that connects everything and makes it work together automatically. They complement each other perfectly.</div>
+            </details>
+            <details class="group bg-gray-50 border border-gray-200 rounded-xl overflow-hidden">
+                <summary class="flex items-center justify-between cursor-pointer p-6 font-semibold text-gray-900 text-sm">
+                    What exactly do you mean by "automation" and "smart systems"?
+                    <svg class="w-5 h-5 text-gray-400 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+                </summary>
+                <div class="px-6 pb-6 text-sm text-gray-600 leading-relaxed">We build automated workflows that trigger based on real events in your practice. When a call is missed, a text goes out automatically. When an appointment is booked, reminders are scheduled. When a patient visits, a review request is sent. These are intelligent integrations between your existing tools &mdash; not chatbots, not AI gimmicks. Just reliable systems that do the work your staff shouldn't have to do manually.</div>
+            </details>
+        </div>
+    </div>
+</section>
+
+<!-- ========== LEAD CAPTURE / CONTACT ========== -->
+<section class="py-20 bg-gray-50" id="contact">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6">
+        <div class="bg-white border border-gray-200 rounded-2xl p-8 md:p-12 shadow-sm">
+            <div class="text-center mb-8">
+                <p class="text-sm font-bold text-brand-600 uppercase tracking-widest mb-3">Get In Touch</p>
+                <h2 class="text-3xl font-extrabold text-gray-900 tracking-tight mb-3">See how automation can work for your practice</h2>
+                <p class="text-gray-500">Tell us about your practice and we'll show you exactly which workflows will have the biggest impact on your revenue.</p>
+            </div>
+            <form id="lead-form" class="space-y-5" action="https://formspree.io/f/xdkodqjl" method="POST">
+                <div class="grid md:grid-cols-2 gap-5">
+                    <div>
+                        <label class="block text-sm font-semibold text-gray-700 mb-1.5">Your Name</label>
+                        <input type="text" name="name" required class="w-full border border-gray-300 rounded-lg px-4 py-3 text-sm focus:ring-2 focus:ring-brand-500 focus:border-brand-500 outline-none transition" placeholder="Dr. Jane Smith">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-semibold text-gray-700 mb-1.5">Practice Name</label>
+                        <input type="text" name="practice" required class="w-full border border-gray-300 rounded-lg px-4 py-3 text-sm focus:ring-2 focus:ring-brand-500 focus:border-brand-500 outline-none transition" placeholder="Smile Dental Care">
+                    </div>
+                </div>
+                <div class="grid md:grid-cols-2 gap-5">
+                    <div>
+                        <label class="block text-sm font-semibold text-gray-700 mb-1.5">Email</label>
+                        <input type="email" name="email" required class="w-full border border-gray-300 rounded-lg px-4 py-3 text-sm focus:ring-2 focus:ring-brand-500 focus:border-brand-500 outline-none transition" placeholder="jane@smiledental.com">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-semibold text-gray-700 mb-1.5">Phone</label>
+                        <input type="tel" name="phone" class="w-full border border-gray-300 rounded-lg px-4 py-3 text-sm focus:ring-2 focus:ring-brand-500 focus:border-brand-500 outline-none transition" placeholder="(303) 555-0123">
+                    </div>
+                </div>
+                <div>
+                    <label class="block text-sm font-semibold text-gray-700 mb-1.5">What's your biggest challenge right now?</label>
+                    <select name="challenge" class="w-full border border-gray-300 rounded-lg px-4 py-3 text-sm focus:ring-2 focus:ring-brand-500 focus:border-brand-500 outline-none transition text-gray-600">
+                        <option value="">Select one...</option>
+                        <option value="missed-calls">Missed calls / lost patients</option>
+                        <option value="no-shows">High no-show rates</option>
+                        <option value="reviews">Not enough online reviews</option>
+                        <option value="recall">Lapsed patients not returning</option>
+                        <option value="staff-burnout">Staff overwhelmed with manual tasks</option>
+                        <option value="all">All of the above</option>
+                    </select>
+                </div>
+                <div>
+                    <label class="block text-sm font-semibold text-gray-700 mb-1.5">Anything else you'd like us to know?</label>
+                    <textarea name="message" rows="3" class="w-full border border-gray-300 rounded-lg px-4 py-3 text-sm focus:ring-2 focus:ring-brand-500 focus:border-brand-500 outline-none transition resize-none" placeholder="Tell us about your practice, how many locations, current tools you use..."></textarea>
+                </div>
+                <input type="hidden" name="_subject" value="New Lead from Future Focus Agents Landing Page">
+                <button type="submit" class="w-full bg-brand-600 hover:bg-brand-700 text-white px-6 py-4 rounded-xl font-bold text-sm transition shadow-lg shadow-brand-600/20">
+                    Get Your Free Automation Assessment &rarr;
+                </button>
+                <p class="text-xs text-gray-400 text-center">We'll respond within 24 hours. No spam, no obligation.</p>
+            </form>
+        </div>
+    </div>
+</section>
+
+<!-- ========== FINAL CTA ========== -->
+<section class="gradient-cta py-20">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 text-center">
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight mb-4">Stop Losing Revenue to Fixable Problems</h2>
+        <p class="text-lg text-blue-100/80 max-w-2xl mx-auto mb-10 leading-relaxed">Every day without automation is another day of missed calls, no-shows, and manual work that doesn't need to happen. Start recovering revenue today.</p>
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+            <a href="https://buy.stripe.com/4gMcN4a3ocSC05R2Wi9sk0h" class="bg-white text-brand-700 px-8 py-4 rounded-xl text-base font-bold hover:bg-blue-50 transition shadow-lg w-full sm:w-auto text-center">
+                Get the $47 Guide
+            </a>
+            <a href="https://buy.stripe.com/fZueVc0sO5qacSD1Se9sk0i" class="bg-brand-500 hover:bg-brand-400 text-white border border-white/20 px-8 py-4 rounded-xl text-base font-bold transition shadow-lg w-full sm:w-auto text-center">
+                Start at $29/mo &rarr;
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- ========== FOOTER ========== -->
+<footer class="bg-gray-900 py-12">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+        <div class="grid md:grid-cols-3 gap-8 mb-8">
+            <div>
+                <a href="#" class="text-xl font-extrabold text-white tracking-tight">Future<span class="text-brand-500">Focus</span></a>
+                <p class="text-sm text-gray-400 mt-3 leading-relaxed">Automated workflows, smart integrations, and intelligent systems for dental and healthcare practices.</p>
+            </div>
+            <div>
+                <h4 class="text-sm font-bold text-white uppercase tracking-wider mb-3">Quick Links</h4>
+                <ul class="space-y-2">
+                    <li><a href="#solutions" class="text-sm text-gray-400 hover:text-white transition">Solutions</a></li>
+                    <li><a href="#pricing" class="text-sm text-gray-400 hover:text-white transition">Pricing</a></li>
+                    <li><a href="#faq" class="text-sm text-gray-400 hover:text-white transition">FAQ</a></li>
+                    <li><a href="#contact" class="text-sm text-gray-400 hover:text-white transition">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-sm font-bold text-white uppercase tracking-wider mb-3">Contact</h4>
+                <ul class="space-y-2">
+                    <li><a href="mailto:futurefocusagents@gmail.com" class="text-sm text-gray-400 hover:text-white transition">futurefocusagents@gmail.com</a></li>
+                    <li><span class="text-sm text-gray-400">Littleton, Colorado</span></li>
+                    <li><a href="https://thefuturefocus.net" class="text-sm text-gray-400 hover:text-white transition">thefuturefocus.net</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="border-t border-gray-800 pt-8 text-center">
+            <p class="text-xs text-gray-500">&copy; 2026 Future Focus Agents. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+<!-- ========== SCROLL ANIMATION ========== -->
+<script>
+    // Intersection Observer for fade-in animations
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+            }
+        });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+
+    // Form submission handling
+    const form = document.getElementById('lead-form');
+    if (form) {
+        form.addEventListener('submit', function(e) {
+            const btn = form.querySelector('button[type="submit"]');
+            btn.textContent = 'Sending...';
+            btn.disabled = true;
+        });
+    }
+</script>
+
+</body>
+</html>

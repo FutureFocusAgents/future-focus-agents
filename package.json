@@ -1,0 +1,13 @@
+{
+  "name": "future-focus-agents",
+  "version": "1.0.0",
+  "description": "Future Focus Agents - Practice Automation for Dental & Healthcare",
+  "scripts": {
+    "check-stripe": "node scripts/check-stripe.js",
+    "send-followups": "node scripts/send-followups.js",
+    "revenue-report": "node scripts/revenue-report.js"
+  },
+  "author": "Future Focus Agents",
+  "license": "UNLICENSED",
+  "private": true
+}
