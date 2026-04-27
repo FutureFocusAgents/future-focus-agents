@@ -1,6 +1,32 @@
 [build]
   publish = "."
+  functions = "netlify/functions"
 
+[functions]
+  node_bundler = "esbuild"
+
+# Blog routes - serve index.html from each blog directory
+[[redirects]]
+  from = "/blog/reduce-missed-appointments-dental-practices"
+  to = "/blog/reduce-missed-appointments-dental-practices/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog/dental-billing-automation-guide"
+  to = "/blog/dental-billing-automation-guide/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog/ai-automation-dental-offices"
+  to = "/blog/ai-automation-dental-offices/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog"
+  to = "/blog/index.html"
+  status = 200
+
+# SPA fallback for main page only (not blog or functions)
 [[redirects]]
   from = "/*"
   to = "/index.html"
@@ -13,3 +39,13 @@
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "strict-origin-when-cross-origin"
     Permissions-Policy = "camera=(), microphone=(), geolocation=()"
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/blog/*"
+  [headers.values]
+    Cache-Control = "public, max-age=3600"
