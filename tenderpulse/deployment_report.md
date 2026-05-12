@@ -16,7 +16,7 @@ TenderPulse has been fully built and deployed as a revenue-ready product. All fi
 
 | Field | Detail |
 |-------|--------|
-| **Live URL** | https://tenderpulse.manus.space |
+| **Live URL** | https://tenderb2b-kxccccun.manus.space |
 | **Preview URL** | https://3000-iv6zo3vkxg5gz6ritva12-45e35166.us2.manus.computer |
 | **Checkpoint Version** | 698f2fb1 |
 | **Framework** | React 19 + Tailwind CSS 4 + Framer Motion |
@@ -37,7 +37,7 @@ TenderPulse has been fully built and deployed as a revenue-ready product. All fi
 10. CTA — final conversion section
 11. Footer
 
-All Stripe payment links are embedded directly in the pricing section and CTA buttons.
+All Stripe payment links are embedded directly in the pricing section and CTA buttons. The site is deployed publicly and accessible at https://tenderb2b-kxccccun.manus.space.
 
 ---
 
