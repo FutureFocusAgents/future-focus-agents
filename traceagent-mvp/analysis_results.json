@@ -1,0 +1,118 @@
+{
+  "timestamp": "2026-05-13T19:50:53.752068",
+  "total_suppliers": 7,
+  "suppliers": [
+    {
+      "name": "Fazenda Santa Maria",
+      "country": "Brazil",
+      "commodity": "Coffee",
+      "latitude": -3.5,
+      "longitude": -60.2,
+      "risk_score": 53,
+      "status": "REQUIRES_DOCUMENTATION",
+      "analysis": {
+        "risk_score": 53,
+        "status": "REQUIRES_DOCUMENTATION",
+        "ndvi_change": "-0.004",
+        "forest_cover_loss": "4.42%",
+        "analysis_date": "2026-05-13"
+      }
+    },
+    {
+      "name": "Cacao Farms Ltd",
+      "country": "Ghana",
+      "commodity": "Cocoa",
+      "latitude": 6.2,
+      "longitude": -1.5,
+      "risk_score": 29,
+      "status": "VERIFIED_COMPLIANT",
+      "analysis": {
+        "risk_score": 29,
+        "status": "VERIFIED_COMPLIANT",
+        "ndvi_change": "0.016",
+        "forest_cover_loss": "2.36%",
+        "analysis_date": "2026-05-13"
+      }
+    },
+    {
+      "name": "Timber Exports Inc",
+      "country": "Indonesia",
+      "commodity": "Timber",
+      "latitude": -2.1,
+      "longitude": 113.8,
+      "risk_score": 15,
+      "status": "VERIFIED_COMPLIANT",
+      "analysis": {
+        "risk_score": 15,
+        "status": "VERIFIED_COMPLIANT",
+        "ndvi_change": "0.004",
+        "forest_cover_loss": "4.08%",
+        "analysis_date": "2026-05-13"
+      }
+    },
+    {
+      "name": "Rubber Plantations Co",
+      "country": "Vietnam",
+      "commodity": "Rubber",
+      "latitude": 12.5,
+      "longitude": 105.8,
+      "risk_score": 87,
+      "status": "HIGH_RISK_FLAG",
+      "analysis": {
+        "risk_score": 87,
+        "status": "HIGH_RISK_FLAG",
+        "ndvi_change": "-0.031",
+        "forest_cover_loss": "2.21%",
+        "analysis_date": "2026-05-13"
+      }
+    },
+    {
+      "name": "Soy Producers Group",
+      "country": "Argentina",
+      "commodity": "Soy",
+      "latitude": -25.3,
+      "longitude": -57.5,
+      "risk_score": 14,
+      "status": "VERIFIED_COMPLIANT",
+      "analysis": {
+        "risk_score": 14,
+        "status": "VERIFIED_COMPLIANT",
+        "ndvi_change": "-0.046",
+        "forest_cover_loss": "1.87%",
+        "analysis_date": "2026-05-13"
+      }
+    },
+    {
+      "name": "Palm Oil Holdings",
+      "country": "Malaysia",
+      "commodity": "Palm Oil",
+      "latitude": 4.2,
+      "longitude": 101.5,
+      "risk_score": 53,
+      "status": "REQUIRES_DOCUMENTATION",
+      "analysis": {
+        "risk_score": 53,
+        "status": "REQUIRES_DOCUMENTATION",
+        "ndvi_change": "-0.001",
+        "forest_cover_loss": "3.92%",
+        "analysis_date": "2026-05-13"
+      }
+    },
+    {
+      "name": "Cattle Ranches LLC",
+      "country": "Paraguay",
+      "commodity": "Cattle",
+      "latitude": -23.4,
+      "longitude": -56.2,
+      "risk_score": 28,
+      "status": "VERIFIED_COMPLIANT",
+      "analysis": {
+        "risk_score": 28,
+        "status": "VERIFIED_COMPLIANT",
+        "ndvi_change": "-0.035",
+        "forest_cover_loss": "1.05%",
+        "analysis_date": "2026-05-13"
+      }
+    }
+  ]
+}

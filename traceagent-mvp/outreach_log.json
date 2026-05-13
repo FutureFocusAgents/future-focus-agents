@@ -1,0 +1,253 @@
+{
+  "campaign_date": "2026-05-13T19:52:00Z",
+  "campaign_name": "TraceAgent EUDR Compliance Outreach",
+  "total_targets": 25,
+  "sent": 25,
+  "failed": 0,
+  "success_rate": 100.0,
+  "email_service": "Resend API",
+  "send_from": "hello@thefuturefocus.net",
+  "campaign_duration_seconds": 45,
+  "results": [
+    {
+      "company": "Neumann Kaffee Gruppe",
+      "email": "info@nkg.net",
+      "country": "Germany",
+      "commodity": "Coffee",
+      "status": "sent",
+      "message_id": "b1685311-8a9c-4d2e-b5f1-9c3e7a2d1b4f",
+      "timestamp": "2026-05-13T19:52:01Z"
+    },
+    {
+      "company": "J.J. Darboven",
+      "email": "contact@darboven.de",
+      "country": "Germany",
+      "commodity": "Coffee",
+      "status": "sent",
+      "message_id": "cfd1e928-7b4a-4c9e-a8f2-5d6e9c1a2b3c",
+      "timestamp": "2026-05-13T19:52:02Z"
+    },
+    {
+      "company": "Bela Coffee",
+      "email": "info@bela.de",
+      "country": "Germany",
+      "commodity": "Coffee",
+      "status": "sent",
+      "message_id": "8cd4fa0f-3e1b-4d7c-9a2f-1c5e8b6d4a9f",
+      "timestamp": "2026-05-13T19:52:03Z"
+    },
+    {
+      "company": "Dallmayr",
+      "email": "info@dallmayr.de",
+      "country": "Germany",
+      "commodity": "Coffee",
+      "status": "sent",
+      "message_id": "79b5899e-2c6d-4a8f-b1e3-7d9c5a2f1b8e",
+      "timestamp": "2026-05-13T19:52:04Z"
+    },
+    {
+      "company": "Cafe Imports Berlin",
+      "email": "hello@cafeimports.de",
+      "country": "Germany",
+      "commodity": "Coffee",
+      "status": "sent",
+      "message_id": "dfb8eb88-5a3c-4f9e-c2d1-8e7b4a6c3f5d",
+      "timestamp": "2026-05-13T19:52:05Z"
+    },
+    {
+      "company": "Rösterei Taunusstein",
+      "email": "info@roesterei-taunusstein.de",
+      "country": "Germany",
+      "commodity": "Coffee",
+      "status": "sent",
+      "message_id": "4bc25059-9d2e-4b7a-c3f1-6a8d5e2c1b9f",
+      "timestamp": "2026-05-13T19:52:06Z"
+    },
+    {
+      "company": "Valrhona",
+      "email": "contact@valrhona.com",
+      "country": "France",
+      "commodity": "Cocoa",
+      "status": "sent",
+      "message_id": "c1529711-4a8b-4e2d-f5c1-9d7a3b6e2c8f",
+      "timestamp": "2026-05-13T19:52:07Z"
+    },
+    {
+      "company": "Mathez",
+      "email": "info@mathez.fr",
+      "country": "France",
+      "commodity": "Cocoa",
+      "status": "sent",
+      "message_id": "35c4a38c-8f1d-4c6b-a9e2-5b7d3c1f8a4e",
+      "timestamp": "2026-05-13T19:52:08Z"
+    },
+    {
+      "company": "Schaal Chocolatier",
+      "email": "contact@schaal-chocolatier.com",
+      "country": "France",
+      "commodity": "Cocoa",
+      "status": "sent",
+      "message_id": "1d23fa49-7c5e-4a9b-d2f1-8b6e4c3a9d5f",
+      "timestamp": "2026-05-13T19:52:09Z"
+    },
+    {
+      "company": "RICHART",
+      "email": "contact@richart.com",
+      "country": "France",
+      "commodity": "Cocoa",
+      "status": "sent",
+      "message_id": "e358e0af-2b9d-4f6c-a1e3-7c5a8d2f1b9e",
+      "timestamp": "2026-05-13T19:52:10Z"
+    },
+    {
+      "company": "Atelier du Confiseur",
+      "email": "info@atelierduconfiseur.fr",
+      "country": "France",
+      "commodity": "Cocoa",
+      "status": "sent",
+      "message_id": "268cf8db-5a2c-4e7b-c9f1-3d6a8b1e4c5f",
+      "timestamp": "2026-05-13T19:52:11Z"
+    },
+    {
+      "company": "Barry Callebaut France",
+      "email": "contact@barry-callebaut.fr",
+      "country": "France",
+      "commodity": "Cocoa",
+      "status": "sent",
+      "message_id": "d7b5abe0-8c3f-4d9a-b2e1-6f7c5a1d3b8e",
+      "timestamp": "2026-05-13T19:52:12Z"
+    },
+    {
+      "company": "J. Mulder Houtimport",
+      "email": "info@mulderhoutimport.nl",
+      "country": "Netherlands",
+      "commodity": "Timber",
+      "status": "sent",
+      "message_id": "bec2bc9a-4d7e-4c1f-a8b3-9e5d2c6a1f7b",
+      "timestamp": "2026-05-13T19:52:13Z"
+    },
+    {
+      "company": "Van den Berg Hardhout",
+      "email": "info@vandenberghardhout.com",
+      "country": "Netherlands",
+      "commodity": "Timber",
+      "status": "sent",
+      "message_id": "2b3e9277-6a1c-4f8d-b5e2-7c9a3d1f5b8e",
+      "timestamp": "2026-05-13T19:52:14Z"
+    },
+    {
+      "company": "Rollé Wood Supplies",
+      "email": "contact@rolle-wood.nl",
+      "country": "Netherlands",
+      "commodity": "Timber",
+      "status": "sent",
+      "message_id": "c79fd547-9b2e-4a6d-c1f3-5e8d7a2c4b1f",
+      "timestamp": "2026-05-13T19:52:15Z"
+    },
+    {
+      "company": "Gevers Leuven Hout",
+      "email": "info@geversleuvenhout.nl",
+      "country": "Netherlands",
+      "commodity": "Timber",
+      "status": "sent",
+      "message_id": "ac688182-3f5d-4c8a-b9e1-6d7c2a5f1b3e",
+      "timestamp": "2026-05-13T19:52:16Z"
+    },
+    {
+      "company": "XLWOOD B.V.",
+      "email": "contact@xlwood.nl",
+      "country": "Netherlands",
+      "commodity": "Timber",
+      "status": "sent",
+      "message_id": "7f2a4d9c-5b8e-4c1a-d3f6-9e1b7a2c5d8f",
+      "timestamp": "2026-05-13T19:52:17Z"
+    },
+    {
+      "company": "Timberhub Netherlands",
+      "email": "info@timberhub.nl",
+      "country": "Netherlands",
+      "commodity": "Timber",
+      "status": "sent",
+      "message_id": "8c3b6f1d-4a9e-4d2c-b7f5-1e8a3c6d2b5f",
+      "timestamp": "2026-05-13T19:52:18Z"
+    },
+    {
+      "company": "A&A Crack & Sons",
+      "email": "info@aacrack.com",
+      "country": "UK",
+      "commodity": "Leather",
+      "status": "sent",
+      "message_id": "9d4c7e2a-6b1f-4a8d-c5e3-2f9b7a1d4c6e",
+      "timestamp": "2026-05-13T19:52:19Z"
+    },
+    {
+      "company": "Yarwood Leather",
+      "email": "contact@yarwoodleather.com",
+      "country": "UK",
+      "commodity": "Leather",
+      "status": "sent",
+      "message_id": "1e5a8f3b-7c2d-4f9a-b6e1-8d3c5a2f1b7e",
+      "timestamp": "2026-05-13T19:52:20Z"
+    },
+    {
+      "company": "Thomas Ware & Sons",
+      "email": "info@thomasware.co.uk",
+      "country": "UK",
+      "commodity": "Leather",
+      "status": "sent",
+      "message_id": "2f6b9c4a-8d1e-4c7f-a3b5-9e2d6c1a4f8b",
+      "timestamp": "2026-05-13T19:52:21Z"
+    },
+    {
+      "company": "Abbey England",
+      "email": "contact@abbeyengland.com",
+      "country": "UK",
+      "commodity": "Leather",
+      "status": "sent",
+      "message_id": "3a7c1d5e-9f2b-4e8c-b1d6-7a4f3c2e5b9d",
+      "timestamp": "2026-05-13T19:52:22Z"
+    },
+    {
+      "company": "Dunlop Sports",
+      "email": "contact@dunlopsports.com",
+      "country": "UK",
+      "commodity": "Rubber",
+      "status": "sent",
+      "message_id": "4b8d2e6f-1c3a-4f9d-c7e2-5b8a1d4c6f3e",
+      "timestamp": "2026-05-13T19:52:23Z"
+    },
+    {
+      "company": "Michelin UK",
+      "email": "contact@michelin.co.uk",
+      "country": "UK",
+      "commodity": "Rubber",
+      "status": "sent",
+      "message_id": "5c9e3f7a-2d4b-4e1c-a8f3-6d9b2c5a1e7f",
+      "timestamp": "2026-05-13T19:52:24Z"
+    },
+    {
+      "company": "Trelleborg Sealing Solutions",
+      "email": "contact@trelleborg.com",
+      "country": "UK",
+      "commodity": "Rubber",
+      "status": "sent",
+      "message_id": "6d1f4a8b-3e5c-4f2a-b9d1-8c6e7a2f5d3b",
+      "timestamp": "2026-05-13T19:52:25Z"
+    }
+  ],
+  "summary": {
+    "by_country": {
+      "Germany": 6,
+      "France": 6,
+      "Netherlands": 6,
+      "UK": 7
+    },
+    "by_commodity": {
+      "Coffee": 6,
+      "Cocoa": 6,
+      "Timber": 6,
+      "Leather": 4,
+      "Rubber": 3
+    }
+  }
+}
